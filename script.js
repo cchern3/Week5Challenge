@@ -1,4 +1,4 @@
-//Display current date and time (Moment.js)
+//Display current date and time (Moment.js)!
 $("#currentDay").text(dayjs().format('dddd, MMMM DD, YYYY'));
 
 function timeblock() {
