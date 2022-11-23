@@ -1,8 +1,14 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
+  font-weight: bold;
+
 }
 
+header {
+  text-align: center;
+  border-bottom: 2px solid rgb(79, 79, 79);
+}
 textarea {
   background: transparent;
   border: none;
@@ -36,12 +42,12 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #e7ff61;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #ddca77;
   color: white;
 }
 
@@ -54,6 +60,6 @@ textarea {
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 27px;
   transition: all 0.3s ease-in-out;
 }
