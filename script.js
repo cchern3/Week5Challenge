@@ -1,6 +1,7 @@
-//Display current date and time (Moment.js)!
+//Display current date and time using dayjs
 $("#currentDay").text(dayjs().format('dddd, MMMM DD, YYYY'));
 
+//created timeblocks relative to the current hour
 function timeblock() {
     var hour = dayjs().hour();
   
@@ -19,6 +20,7 @@ function timeblock() {
 
 timeblock();
 
+//created a save button to store the inputted text
 var savebutton = $(".saveBtn")
 savebutton.on("click", function() {
 
@@ -27,6 +29,7 @@ savebutton.on("click", function() {
   localStorage.setItem(thetime, thetext);
 });
 
+//the saved text will be established after the web page refreshes
 function usePlanner() {
 
   $(".hour").each(function() {
